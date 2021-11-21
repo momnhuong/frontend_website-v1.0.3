@@ -1,0 +1,37 @@
+.wrapper-ObjectStorage {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+.wrapper-ObjectStorage .card-header {
+  border-bottom: hidden;
+  padding: 0;
+}
+.wrapper-ObjectStorage .quota p {
+  display: flex;
+  justify-content: flex-end;
+}
+.wrapper-ObjectStorage .card.storage-usage,
+.wrapper-ObjectStorage .card.quota {
+  padding: 1rem;
+}
+.storage-usage .box-storage-usage,
+.quota .box-quota {
+  background-color: white;
+}
+.storage-usage .box-storage-usage .title-storage-usage span,
+.quota .box-quota .title-quota span {
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  font-size: 1.32rem;
+}
+.storage-usage .box-storage-usage .content-box-storage-usage,
+.quota .box-quota .content-box-quota {
+  padding: 10px;
+}
+.wrapper-ObjectStorage .card.storage-usage,
+.wrapper-ObjectStorage .card.quota {
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1) !important;
+}

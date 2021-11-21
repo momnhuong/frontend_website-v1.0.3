@@ -1,0 +1,105 @@
+.content-model {
+  padding: 0 !important;
+}
+.ReactModal__Content ReactModal__Content--after-open {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  border: 1px solid transparent;
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 0px !important;
+  transform: translate(-50%, -50%);
+}
+label {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+.group-icon-modal {
+  overflow-x: hidden;
+}
+
+.btn-block,
+.loginBtn {
+  width: 470px;
+}
+
+/* .icon-close-modal-signin:hover,.icon-close-modal-signin:focus{
+    border: 1px #e3e3e3 solid;
+    border-radius: 50%;
+  } */
+
+.icon-close-modal-signin img {
+  width: 25px;
+  color: #7f7f7f;
+}
+
+.loginBtn {
+  padding: 8px 15px;
+}
+
+.loginBtn:before {
+  left: 33%;
+  top: 15%;
+  border-right: none;
+}
+
+.metro,
+.loginBtn--google {
+  padding-left: 40%;
+}
+
+.ReactModal__Overlay--after-open {
+  z-index: 99999;
+  background-color: rgb(0, 0, 0, 0.75) !important;
+}
+.ReactModal__Body--open {
+  overflow-y: hidden;
+}
+.content-model {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  /* border: 1px solid rgb(204, 204, 204); */
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 480px) {
+  .ReactModal__Content ReactModal__Content--after-open {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    height: 100%;
+    bottom: auto;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    margin-right: -50%;
+    transform: translate(0, 0) !important;
+  }
+  .content-model {
+    top: 0 !important;
+    left: 0 !important;
+    padding: 10px;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #fff !important;
+    transform: translate(0%, 0%) !important;
+  }
+}

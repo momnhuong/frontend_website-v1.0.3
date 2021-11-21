@@ -1,0 +1,166 @@
+.transactions {
+  /* padding: 20px 40px; */
+}
+.transactions .header_transaction {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.content_profile .content_profile_right {
+  background-color: #fff;
+  border-radius: 9px !important;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
+}
+.transactions .header_transaction_left {
+  display: flex;
+  justify-self: start;
+  height: 35px;
+}
+.transactions .header_transaction_left .title_transaction {
+  line-height: 35px;
+  font-size: 1.1rem;
+  color: #636363;
+  font-weight: bold;
+  border-right: 2px solid #d6dce1;
+  padding-right: 8px;
+}
+.transactions .header_transaction_left .breadcrumb {
+  padding: 0.5rem 1rem;
+  line-height: 21px;
+  height: 35px;
+  background-color: transparent;
+}
+.transactions .header_transaction_left .breadcrumb .breadcrumb-item svg {
+  margin-right: 0px;
+  margin-top: 2px;
+}
+.transactions .header_transaction_right {
+  padding-top: 2px;
+}
+.transactions .header_transaction_right .icon {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  background-color: #716be8;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 15px;
+}
+.transactions .header_transaction_right .icon svg {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  height: 20px;
+  width: 20px;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.top {
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.top .actions.action-btns .dropdown button {
+  padding: 7.5px 16px !important;
+  border-radius: 9px !important;
+  /* border-color: #0bcbff !important;
+  background-color: #0071bc !important; */
+  /* border-color: #0bcbff !important; */
+  background-color: #0bcbff !important;
+}
+.top .actions.action-btns .dropdown button span,
+.top .actions.action-btns .dropdown button svg {
+  color: white;
+  vertical-align: sub;
+}
+.top .actions.action-btns .dropdown button svg {
+  margin-right: 0px !important;
+}
+.top .actions.action-btns .dropdown button span {
+  margin-right: 0.5rem;
+}
+.top .actions.action-btns .dropdown .dropdown-menu.dropdown-menu-right.show {
+  top: 15px !important;
+  border-radius: 8px;
+  transform: translate3d(0px, 29px, 0px) !important;
+}
+.top
+  .actions.action-btns
+  .dropdown
+  .dropdown-menu.dropdown-menu-right.show
+  .dropdown-item {
+  color: #626262;
+}
+.top
+  .actions.action-btns
+  .dropdown
+  .dropdown-menu.dropdown-menu-right.show
+  .dropdown-item:hover {
+  cursor: pointer;
+}
+.top
+  .actions.action-btns
+  .dropdown
+  .dropdown-menu.dropdown-menu-right.show:before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  right: 3.2rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  display: block;
+  background: #ffffff;
+  -webkit-transform: rotate(45deg) translate(-7px);
+  -ms-transform: rotate(45deg) translate(-7px);
+  transform: rotate(45deg) translate(-7px);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  box-sizing: border-box;
+}
+.top .action-search {
+  position: relative;
+}
+.top .action-search img {
+  position: absolute;
+  top: 29%;
+  left: 7%;
+  height: 20px;
+}
+.top .action-search .form-control {
+  padding-right: 5px;
+  border: 1px solid #dae1e7;
+  border-radius: 9px !important;
+  background-image: none;
+  line-height: 30px;
+}
+
+.contract
+  .table-content
+  .ant-table-tbody
+  .ant-table-cell
+  .ant-space-item
+  .anticon.anticon-eye
+  svg {
+  color: #0071bc;
+}
+.form-add-billing .ant-row.ant-form-item:last-child .ant-form-item-control-input-content{
+  display: flex;
+  justify-content: flex-end;
+}
+.form-add-billing .ant-row.ant-form-item:last-child .ant-form-item-control-input-content .btn-add-billing,.form-add-billing .ant-row.ant-form-item:last-child .ant-form-item-control-input-content .btn-cancel{
+  width: 25%;
+  background-color: #0071bc;
+  border-radius: 9px;
+}
+.form-add-billing .ant-row.ant-form-item:last-child .ant-form-item-control-input-content .btn-cancel{
+  margin-right: 0.5rem;
+  background-color: transparent;
+}
+.form-add-billing .ant-row.ant-form-item:last-child .ant-form-item-control-input-content .btn-add-billing span{
+  color: white;
+  text-transform: uppercase;
+}
+.form-add-billing .ant-picker.ant-picker-large{
+  width: 100%;
+}

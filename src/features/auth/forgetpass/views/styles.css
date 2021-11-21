@@ -1,0 +1,161 @@
+.menu {
+  display: none;
+}
+.forgetWrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url(../../../../assets/images/vuexy-login-bg.jpg);
+}
+.forgetContentWrapper {
+  overflow-y: auto;
+  z-index: 10;
+  position: relative;
+  border-radius: 9px !important;
+  box-shadow: 0 5px 7px 0px rgba(0, 0, 0, 0.4);
+  background-color: #eff2f7;
+}
+.forgetContent {
+  margin: 0 auto;
+  min-width: 850px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  /* background-color: #fff; */
+  background-color: #eff2f7;
+}
+.forgetContent .forgetContentLeft {
+  background-color: #eff2f7;
+  margin-left: 12%;
+}
+.forgetContent .forgetContentLeft .logo img {
+  margin-top: 25px;
+}
+.forgetContent .forgetContentRight {
+  max-width: 450px;
+  height: 100%;
+  background-color: #fff;
+  padding: 20px;
+  padding-left: 10px;
+}
+.forgetContent .forgetContentRight .logo {
+  width: 100%;
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.forgetContent .forgetContentRight .logo img {
+  max-height: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.forgetContentRight .card-header {
+  border-bottom: none;
+  padding-left: 21px;
+}
+.forgetContentRight .card-header .card-title {
+  margin-bottom: 0px;
+}
+.forgetContentRight .card-header .card-title h4 {
+  margin-bottom: 0px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1.32rem;
+  line-height: 1.2;
+  color: #2c2c2c;
+}
+.forgetContentRight p {
+  padding-left: 21px;
+}
+
+.gr-btn {
+  margin-top: 35px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.gr-btn li {
+  margin: 0px;
+}
+.gr-btn li:first-child {
+  margin: 0;
+  height: 48px;
+  border: 1px solid #0071bc;
+  color: #0071bc;
+  text-transform: uppercase;
+}
+.gr-btn li:last-child {
+  margin: 0;
+}
+ 
+.gr-btn li:last-child button span{
+  color: white;
+  
+}
+
+.gr-btn li:first-child a {
+  padding: 6px 25px;
+  line-height: 40px;
+}
+
+.gr-btn li:first-child:hover {
+  background-color: rgba(115, 103, 240, 0.08);
+  color: #0071bc;
+}
+.forgetForm {
+  padding: 14px 21px 21px 21px !important;
+  padding-bottom: 5px;
+}
+.forgetForm .ant-row.ant-form-item {
+  margin-bottom: 15px;
+}
+.forgetForm .ant-row.ant-form-item .ant-input {
+  border-radius: 5px;
+}
+.forgetForm .box-login {
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.forgetForm .box-login li:last-child {
+  margin-bottom: 10px;
+}
+.forgetForm li {
+  margin: 25px 0;
+  list-style-type: none;
+  border-radius: 5px;
+}
+.forgetForm li:first-child {
+  margin-top: 0px;
+}
+.forgetForm li .img-email {
+  top: 20px;
+}
+.forgetForm button {
+  width: 100%;
+  border: none;
+  border-radius: 9px !important;
+  border-color: #0bcbff !important;
+  background-color: #0071bc;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.forgetForm button:hover {
+  background-color: #0071bc;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .gr-btn li:first-child {
+    height: 40px;
+    border-radius: 9px;
+  }
+  .gr-btn li:first-child a {
+    line-height: 40px;
+  }
+  .input .field::placeholder {
+    padding-top: 5px;
+  }
+}

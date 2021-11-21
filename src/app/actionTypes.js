@@ -1,0 +1,13 @@
+export const CHANGE_OPEN_KEY = "CHANGE_OPEN_KEY";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGOUT_SUCCESS = "LOGOUT_SUCCESS";
+export const LOGIN_FAILED = "LOGIN_FAILED";
+export const TOGGLE_POPUP = "TOGGLE_POPUP";
+export const PUSH_PAGE = "PUSH_PAGE";
+export const LOADING = "LOADING";
+export const OFF_LOADING = "OFF_LOADING";
+export const ERROR_MESSAGE = "ERROR_MESSAGE";
+export const OFF_ERROR_MESSAGE = "OFF_ERROR_MESSAGE";
+export const SET_SHOPPING_CARTS = "SET_SHOPPING_CARTS";
+export const SET_SHOPPING_CARTS_FAILED = "SET_SHOPPING_CARTS_FAILED";
+export const SET_MENU = "SET_MENU";

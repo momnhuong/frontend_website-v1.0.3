@@ -1,0 +1,13 @@
+export const CLOSE_TICKET_POPUP = "CLOSE_TICKET_POPUP";
+export const OPEN_TICKET_POPUP = "OPEN_TICKET_POPUP";
+export const PAGINATION = "PAGINATION";
+export const LIST_TICKET = "LIST_TICKET";
+export const CREATE_TICKET = "CREATE_TICKET";
+export const PUSH_TICKET = "PUSH_TICKET";
+export const LIST_TAGS = "LIST_TAGS";
+export const DETAIL_TICKET = "DETAIL_TICKET";
+export const DETAIL_USER = "DETAIL_USER";
+export const CLEAR_DETAIL = "CLEAR_DETAIL";
+export const LIST_SERVICE = "LIST_SERVICE";
+export const COUNT_STATUS = "COUNT_STATUS";
+export const LIST_CUSTOMER_TICKET = "LIST_CUSTOMER_TICKET";

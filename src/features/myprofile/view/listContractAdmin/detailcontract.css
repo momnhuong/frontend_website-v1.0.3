@@ -1,0 +1,145 @@
+.detail-contract .header_contract {
+  padding-top: 60px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.content_profile {
+  position: relative;
+}
+.content_profile .content_profile_right {
+  background-color: #fff;
+  border-radius: 9px !important;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
+}
+.detail-contract .header_contract_left {
+  display: flex;
+  justify-self: start;
+  height: 35px;
+}
+.detail-contract .top {
+  padding-top: 30px;
+}
+
+.contract-wrapper {
+  position: relative;
+  width: 100%;
+}
+.contract-page .card-body {
+  padding: 0;
+  margin: 0;
+}
+.contract-page .card-body .head-card-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.contract-page .card-body .head-card-body .media {
+  padding-top: 1rem;
+}
+.contract-page .card-body .head-card-body .media img {
+  height: 100px;
+}
+.contract-page .card {
+  margin-bottom: 0px;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+}
+
+.contract-page .card-body .text-right {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding-right: 0;
+}
+.contract-page .card-body .text-right h2 {
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #2c2c2c;
+  font-size: 1.4rem;
+}
+.contract-page .card-body .text-right .company-info p,
+.contract-page .card-body .info-contract .recipient-info p {
+  min-height: 50px;
+}
+.contract-page .card-body .text-right .contract-details h6 {
+  color: #2c2c2c;
+}
+.contract-page .card-body .text-right .contract-details p {
+  color: #626262;
+}
+.info-contract {
+  width: 100%;
+}
+.recipient-info p,
+.recipient-contact p,
+.company-info p,
+.company-contact p {
+  padding-left: 15px;
+  position: relative;
+  color: #626262;
+}
+.company-info p,
+.company-contact{
+  float: right;
+}
+.recipient-info p {
+  padding-left: 0;
+}
+.recipient-info p svg,
+.recipient-contact p svg {
+  position: absolute;
+  top: 9px;
+  left: -6px;
+}
+.contract-item {
+  width: 100%;
+  border: 2px solid #f8f8f8;
+  padding: 0px;
+}
+.contract-item .contract-item-row {
+  padding: 0.7rem;
+  color: #626262;
+}
+.contract-item-row.title {
+  font-weight: bold;
+}
+.contract-item .invoice-total-table {
+  padding: 1rem 0 0 1rem;
+  width: 100%;
+  margin-top: 0px !important;
+  border: 1px solid rgb(128, 128, 128,0.2);
+  border-top:none;
+  background-color: white;
+}
+.contract-item .invoice-total-table .ant-col:last-child p:last-child{
+  margin-bottom: 0px;
+}
+
+.invoice-total-table .table-borderless {
+  padding-top: 15px;
+  width: 100%;
+  color: #626262;
+  border: 2px solid #f8f8f8;
+  border-top: 2px solid transparent;
+}
+
+span svg {
+  vertical-align: -0.18em;
+  margin-right: 8px;
+}
+.lineblock {
+  padding: 5px 0;
+  display: block;
+}
+.img-tablecell {
+  width: auto;
+  height: 60px;
+}
+@media only screen and (max-width: 1026px) {
+  .img-tablecell {
+    max-width: 100%;
+    height: auto;
+  }
+}

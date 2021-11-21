@@ -1,0 +1,29 @@
+.wrapper-notification-contract {
+  background-color: white;
+}
+.wrapper-notification-contract .content-notification-contract {
+  padding: 1rem;
+  min-width: 400px;
+  min-height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.wrapper-notification-contract .btn-close {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper-notification-contract .btn-close .btn.btn-default {
+  width: 100%;
+  padding: 8px 20px;
+  border-radius: 0px;
+  margin-bottom: 0;
+}
+.wrapper-notification-contract .btn-close .btn-action {
+  background-color: #0071bc;
+  color: white;
+}
+.wrapper-notification-contract .btn-close .btn-cancel {
+  background-color: #f8f8f8;
+  color: #4d4d4d;
+}

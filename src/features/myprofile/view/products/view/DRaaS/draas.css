@@ -1,0 +1,406 @@
+.wrapper-DRaaS {
+  padding-top: 15px;
+}
+.wrapper-DRaaS .topology-system-health,
+.wrapper-DRaaS .VM-Cloud {
+  display: grid;
+  grid-template-columns: 3fr 6fr;
+  column-gap: 20px;
+}
+.wrapper-DRaaS .topology-system-health .topology,
+.wrapper-DRaaS .topology-system-health .system-health {
+  padding: 0;
+  background-color: white;
+}
+
+.wrapper-DRaaS .topology-system-health .topology .title-topology span,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .title-system-health
+  span {
+  padding: 10px;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  font-size: 0.8rem;
+}
+
+.wrapper-DRaaS .topology-system-health .topology .content-topology {
+  padding: 5px;
+  padding-top: 30px;
+  display: flex;
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .topology
+  .content-topology
+  .content-topology-left {
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .topology
+  .content-topology
+  .content-topology-left
+  .icon-build {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .topology
+  .content-topology
+  .content-topology-left
+  .icon-build
+  img {
+  height: 80px;
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .topology
+  .content-topology
+  .content-topology-left
+  .icon-build
+  span {
+  padding-top: 10px;
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .topology
+  .content-topology
+  .content-topology-left
+  .icon-build
+  .icon-play {
+  position: absolute;
+  width: 30px;
+  right: -15px;
+  top: 50%;
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .topology
+  .content-topology
+  .content-topology-left
+  .icon-build
+  .icon-play-down {
+  position: absolute;
+  right: -15px;
+  top: 70%;
+  width: 30px;
+  transform: rotate(180deg);
+  color: #0071bc;
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .topology
+  .content-topology
+  .content-topology-left
+  .icon-build.icon-cloud {
+  padding-top: 20px;
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .topology
+  .content-topology
+  .content-topology-right {
+  padding-left: 20%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .topology
+  .content-topology
+  .content-topology-right
+  img {
+  height: 80px;
+}
+.wrapper-DRaaS .topology-system-health .system-health .content-system-health {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.vApp,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.vCloud,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.lookup-service {
+  display: flex;
+  justify-content: space-between;
+  border-right: 1px solid rgb(77, 77, 77, 0.3);
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.vCloud {
+  border-right: none;
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.vApp,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.vCloud,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.lookup-service {
+  border-bottom: 1px solid rgb(77, 77, 77, 0.3);
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.lookup-service {
+  border-bottom: none;
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.vApp
+  .img-vApp,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.vCloud
+  .img-vApp,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.lookup-service
+  .img-vApp,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.Replicators
+  .img-vApp {
+  margin-top: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.vApp
+  .img-vApp
+  svg,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.vCloud
+  .img-vApp
+  svg,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.lookup-service
+  .img-vApp
+  svg,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.Replicators
+  .img-vApp
+  svg {
+  width: 50px;
+  height: 50px;
+  color: #0bcbff;
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.vApp
+  .content-vApp,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.vCloud
+  .content-vApp,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.lookup-service
+  .content-vApp,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.Replicators
+  .content-vApp {
+  flex-direction: column;
+  padding-right: 20px;
+}
+.item-system-health.Replicators {
+  display: flex;
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.vApp
+  .content-vApp
+  p,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.vCloud
+  .content-vApp
+  p,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.lookup-service
+  .content-vApp
+  p,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.Replicators
+  .content-vApp
+  p {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.vApp
+  .content-vApp
+  span,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.vCloud
+  .content-vApp
+  span,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.lookup-service
+  .content-vApp,
+span,
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.Replicators
+  .content-vApp
+  span {
+  color: #4d4d4d;
+}
+.wrapper-DRaaS
+  .topology-system-health
+  .system-health
+  .content-system-health
+  .item-system-health.lookup-service
+  .content-vApp
+  span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 229px;
+}
+.wrapper-DRaaS .VM-Cloud {
+  padding-top: 1.5rem;
+}
+.wrapper-DRaaS .VM-Cloud .card {
+  padding: 0;
+}
+.wrapper-DRaaS .VM-Cloud .on-prem-vm,
+.wrapper-DRaaS .VM-Cloud .on-vm-cloud {
+  background-color: white;
+}
+.wrapper-DRaaS .VM-Cloud .on-prem-vm .title-on-prem-vm,
+.wrapper-DRaaS .VM-Cloud .on-vm-cloud .title-on-prem-vm {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.wrapper-DRaaS .VM-Cloud .on-prem-vm .title-on-prem-vm img,
+.wrapper-DRaaS .VM-Cloud .on-vm-cloud .title-on-prem-vm img {
+  height: 20px;
+  padding-right: 5px;
+}
+.wrapper-DRaaS .VM-Cloud .on-prem-vm .title-on-prem-vm span,
+.wrapper-DRaaS .VM-Cloud .on-vm-cloud .title-on-prem-vm span {
+  padding: 10px;
+  padding-left: 0px;
+  text-transform: capitalize;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  font-size: 0.8rem;
+}
+.wrapper-DRaaS .VM-Cloud .on-prem-vm .content-on-prem-vm {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.wrapper-DRaaS
+  .VM-Cloud
+  .on-prem-vm
+  .content-on-prem-vm
+  .chartjs-render-monitor {
+  height: 200px;
+}
+.wrapper-DRaaS .VM-Cloud .on-prem-vm .content-on-prem-vm span {
+  padding-left: 30px;
+}
+.wrapper-DRaaS .VM-Cloud .on-vm-cloud .content-on-prem-vm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 15px 0;
+}
+.wrapper-DRaaS
+  .VM-Cloud
+  .on-vm-cloud
+  .content-on-prem-vm
+  .item-content-on-prem-vm
+  span {
+  padding-left: 30px;
+}

@@ -1,0 +1,77 @@
+.detail-order .title-list-product,
+.title-add {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #4d4d4d;
+  border-bottom: 1px solid #4d4d4d;
+}
+.title-add {
+  border-bottom: none;
+  font-size: 1.1rem;
+}
+.detail-order .name-order {
+  padding-top: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.detail-order .name-order span {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.detail-order .name-order .status-order {
+  font-weight: unset;
+  padding: 6px 12px;
+  background-color: #f2b140;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.detail-order form button {
+  margin-left: 5px;
+  padding: 6px 40px;
+  height: 40px;
+  text-transform: uppercase;
+  border-radius: 9px !important;
+}
+.detail-order form button:hover {
+  cursor: pointer;
+}
+.detail-order form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.detail-order .box-input .form-group {
+  margin-bottom: 0;
+  width: 350px;
+}
+.detail-order .box-input .form-group .invalid-feedback {
+  display: block;
+  position: absolute;
+}
+.detail-order .box-input .card-cover {
+  border: 1px solid transparent;
+}
+.detail-order.product .form-add-product-customer{
+  display: unset !important;
+}
+.form-add-product-customer .btn-add-product.customer{
+  background-color: #0071bc;
+  width: 25%;
+  border-radius: 9px;
+}
+.detail-order.product .form-add-product-customer .ant-picker.ant-picker-large{
+  width: 40%;
+}
+.detail-order.product .form-add-product-customer .btn-add-product{
+  background-color: #0071bc;
+  width: 15%;
+}
+.detail-order.product .form-add-product-customer .btn-add-product.customer{
+  padding: 0;
+}
+.detail-order.product .form-add-product-customer .btn-add-product span{
+  color: white;
+}
+

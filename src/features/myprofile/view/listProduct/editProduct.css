@@ -1,0 +1,61 @@
+.box-input .card-cover.brief_description .input textarea.field {
+  min-height: 200px;
+  padding-left: 5px;
+}
+.box-edit .box-input .card-cover {
+  border: none;
+}
+.box-edit .box-input .card-cover .jodit-container .jodit-workplace {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.box-edit .box-input .card-cover.brief_description .input .errorInput {
+  top: 205px;
+}
+.box-edit .content-box-right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+.box-edit .content-box-right p {
+  margin-top: 50px;
+  font-weight: 700;
+}
+.box-edit .content-box-right .media-photo.media-round {
+  overflow: hidden;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+}
+.box-edit .content-box-right button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: 2px solid #407bfd;
+  border-radius: 8px;
+  color: #407bfd;
+  text-transform: uppercase;
+}
+.box-edit .gr_btn_submit {
+  justify-content: flex-start;
+}
+
+.box-edit .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.box-edit .card-header .card-title {
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: #4d4d4d;
+  font-weight: bold;
+}
+.box-edit .form-add-product .btn-add {
+  width: 14%;
+  background-color: #0071bc;
+  border-radius: 9px;
+}
+.box-edit .form-add-product .btn-add span {
+  color: white;
+}

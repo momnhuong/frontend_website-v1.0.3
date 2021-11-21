@@ -1,0 +1,13 @@
+.form-add-catelog .btn-add-catelog {
+    width: 12%;
+    background-color: #0071bc;
+    border-radius: 9px;
+}
+.form-add-catelog .btn-add-catelog span {
+    color: white;
+}
+.form-add-catelog .btn-add-catelog:hover,
+.form-add-catelog .btn-add-catelog:active,
+.form-add-catelog .btn-add-catelog:focus {
+    background-color: #0071bc;
+}

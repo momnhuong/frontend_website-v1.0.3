@@ -1,0 +1,111 @@
+.menu-mobile{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0 15px;
+  height: 56px;
+  background-color: white;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  z-index:11;
+}
+.menu-mobile .btnMobile {
+  padding-top: 8px;
+  width: 35px;
+  color: #0bcbff;
+  font-size: 3rem;
+}
+.menu-mobile img {
+  width: 200px;
+}
+.menu-mobile a {
+  padding: 0;
+}
+.menu-mobile a.nav-link span {
+  display: none;
+}
+.menu-mobile .list-menu.active-menu {
+  transform: translateX(0);
+  transition: 0.5s;
+  background: rgba(0, 113, 188);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+.menu-mobile .list-menu {
+  padding-left: 0px;
+  transform: translateX(-100%);
+  transition: 0.5s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  z-index: 1111;
+  width: 100%;
+  max-width: 30vh;
+  background: rgba(0, 113, 188);
+  height: 100vh;
+  overflow-y: auto;
+  border-bottom: 1px solid #e5e5e5;
+}
+.menu-mobile .list-menu .img-close {
+  position: absolute;
+  margin-right: 5px;
+  right: 0;
+  top: 5px;
+  color: white;
+}
+.menu-mobile a.nav-link:hover .dropdown-content {
+  display: block;
+}
+.menu-mobile .menu_lang {
+  width: unset;
+}
+.menu-mobile .menu_lang .dropdown-content {
+  top: 35px;
+  right: -12px;
+}
+.menu-mobile .dropdown.menu_lang .dropdown-content:before {
+  /* right: 8.9rem; */
+  left: 7.5rem;
+}
+.menu-mobile .menu_lang .nav-link img {
+  margin-right: 0px;
+}
+.info-menu-mobile {
+  padding: 10px;
+}
+.info-menu-mobile li {
+  min-height: 55px;
+  padding: 8px 0px;
+  list-style-type: none;
+  width: 100%;
+}
+.menu-mobile .info-menu-mobile .user-avatar-box {
+  display: block;
+}
+.menu-mobile .info-menu-mobile .user-avatar-box .user-avatar {
+  float: left;
+}
+.menu-mobile .info-menu-mobile .user-avatar-box .user-info-box {
+  padding-left: 8px;
+  display: block;
+  float: left;
+  color: white;
+  text-transform: capitalize;
+}
+.menu-mobile .logout {
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  height: 60px;
+  background-color: #4d4d4d;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.menu-mobile .logout a {
+  color: white;
+  text-transform: uppercase;
+}

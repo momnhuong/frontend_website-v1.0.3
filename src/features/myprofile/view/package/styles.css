@@ -1,0 +1,18 @@
+.form-add-package .btn-add {
+  width: 14%;
+  background-color: #0071bc;
+  border-radius: 9px;
+}
+.form-add-package .btn-add:hover,
+.form-add-package .btn-add:focus,
+.form-add-package .btn-add:active {
+  background-color: #0071bc;
+}
+
+.form-add-package .btn-add span {
+  color: white;
+}
+.form-add-package .anticon.anticon-down.ant-select-suffix,
+.form-add-package .anticon.anticon-search.ant-select-suffix{
+  padding-top: 0 !important;
+}

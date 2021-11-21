@@ -1,0 +1,131 @@
+stages:
+  - build
+  - deploy
+
+before_script:
+  - pwd
+  - export CI_ENVIRONMENT_SIMPLIFIED=$(echo $CI_ENVIRONMENT_NAME | tr ' ' '_')
+  - if [ "$VERSION_SRC" = "detect" ]; then chmod u+x ./detect_develop_version.sh && export VERSION_SRC=$(./detect_develop_version.sh); fi;
+  - export VERSION=$(echo "$VERSION_SRC" | egrep -o "[0-9]+\.[0-9]+\.[0-9]+")
+  - echo $VERSION
+  - source ${ENV_FILE}
+
+.development: &development
+  environment: development
+  variables:
+    VERSION_SRC: "detect"
+    VERSION_PRELEASE: "-prealpha"
+    ENV_FILE: ./.env/dev.env
+    HOST_PORT: 2035
+  only:
+    - develop
+
+.staging: &staging
+  environment: staging
+  variables:
+    VERSION_PRELEASE: "-alpha"
+    ENV_FILE: ./.env/stag.env
+    HOST_PORT: 2035
+  only:
+    - /^release\/.*/
+    - /^hotfixes\/.*/
+
+.rc: &rc
+  environment: rc
+  variables:
+    VERSION_PRELEASE: "-alpha"
+    ENV_FILE: ./.env/prod.env
+    HOST_PORT: 2035
+  only:
+    - /^rc.*/
+  except:
+    - branches
+
+.production: &production
+  environment: production
+  variables:
+    VERSION_PRELEASE: ""
+    ENV_FILE: ./.env/prod.env
+    HOST_PORT: 2035
+  only:
+    - /^v.*/
+  except:
+    - branches
+
+.deploy development: &deploy_development
+  <<: *development
+  tags:
+    - build
+    - deploy
+    - dev
+
+.deploy rc: &deploy_rc
+  <<: *rc
+  tags:
+    - build
+    - deploy
+    - production
+
+.deploy prod: &deploy_prod
+  <<: *production
+  tags:
+    - build
+    - deploy
+    - production
+
+build backend on development:
+  <<: *deploy_development
+  script:
+    - docker-compose config
+    - docker-compose build
+    - docker-compose push
+  stage: build
+
+deploy backend on development:
+  <<: *deploy_development
+  script:
+    - docker-compose config
+    - docker-compose up -d
+  stage: deploy
+
+
+
+build backend on rc:
+  <<: *rc
+  script:
+    - pwd
+    - docker-compose config
+    - docker-compose build
+    - docker-compose push
+  stage: build
+  tags:
+    - build
+    - deploy
+    - dev
+
+deploy backend on rc:
+  <<: *deploy_rc
+  script:
+    - docker stack deploy -c swarm-production.yml usdc
+  stage: deploy
+
+
+
+build backend on production:
+  <<: *production
+  script:
+    - pwd
+    - docker-compose config
+    - docker-compose build
+    - docker-compose push
+  stage: build
+  tags:
+    - build
+    - deploy
+    - dev
+
+deploy backend on production:
+  <<: *deploy_prod
+  script:
+    - docker stack deploy -c swarm-production.yml usdc
+  stage: deploy

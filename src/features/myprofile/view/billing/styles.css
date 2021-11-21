@@ -1,0 +1,51 @@
+.card-header .card-title {
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: #4d4d4d;
+  font-weight: bold;
+}
+.ant-modal-content {
+  min-width: 600px;
+}
+.ant-modal-content .ant-modal-body .detail-pop-up {
+  margin-top: 1rem;
+}
+.ant-modal-content .ant-modal-body .detail-pop-up .name-popup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ant-modal-content .ant-modal-body .detail-pop-up .name-popup span {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.ant-modal-content .ant-modal-body .detail-pop-up .name-popup span.status-order {
+  font-weight: unset;
+  padding: 6px 12px;
+  background-color: #f2b140;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.ant-modal-content .ant-modal-body .detail-pop-up .billing-total-table .ant-row .ant-col:last-child p {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+.ant-modal-content .ant-modal-footer .ant-btn:last-child {
+  background-color: #0bcbff;
+  border: 1px solid transparent;
+}
+.ant-modal-content .ant-modal-footer .ant-btn:last-child span {
+  color: white;
+}
+.list-billing .action-search span{
+  margin-right: 10px;
+  /* font-size: 1rem; */
+  font-weight: bold;
+}
+.list-billing .ant-select-arrow .anticon{
+  padding-top: 0px !important;
+}

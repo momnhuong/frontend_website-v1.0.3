@@ -1,0 +1,48 @@
+.create-customer-account .title-create-customer-account {
+  margin-bottom: 20px;
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: #4d4d4d;
+  font-weight: bold;
+}
+.ant-select-arrow .anticon {
+  padding-top: 5px !important;
+}
+.create-customer-account .btn.btn-default:focus {
+  background-color: #0071bc !important;
+}
+.create-customer-account .card-cover {
+  border: 1px solid transparent;
+}
+.create-customer-account .card-cover .form-group {
+  margin-bottom: 0;
+}
+.create-customer-account .card-cover .form-group .invalid-feedback {
+  display: block;
+}
+.create-customer-account .row-header {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.form-add-customer .btn-add{
+  width: 20%;
+  background-color: #0071bc;
+  border-radius: 9px;
+}
+.form-add-customer .btn-add span{
+  color: white;
+}
+.form-add-customer .btn-add:hover,
+.form-add-customer .btn-add:focus,
+.form-add-customer .btn-add:active {
+  background-color: #0071bc;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input::placeholder {
+    padding-top: 1px !important;
+  }
+}

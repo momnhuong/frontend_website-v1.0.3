@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  website:
+    image: domain-prod/usdc/usdc-website-${CI_ENVIRONMENT_SLUG}:${CI_PIPELINE_ID}
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - REACT_APP_CORE_SERVICE_BASE_URL=${REACT_APP_CORE_SERVICE_BASE_URL}
+        - REACT_APP_ENVIRONMENT=${REACT_APP_ENVIRONMENT}
+    ports:
+      - "6001:5000"

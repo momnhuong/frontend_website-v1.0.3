@@ -1,0 +1,96 @@
+@import "../../commons/constants/fontSize.scss";
+.item-checkAll {
+  .action-selectAll {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    justify-content: center;
+    text-align: left;
+    font-size: $size14;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+    .checkAll {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 20px;
+      width: 20px;
+      background-color: #0439d8;
+      border-radius: 50%;
+    }
+    .checkCircle {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 20px;
+      width: 20px;
+      background-color: #eee;
+      border: 1px solid #2fa933;
+      border-radius: 9px !important;
+    }
+  }
+  .action-selectAll:hover input ~ .checkAll {
+    background-color: #0439d8;
+  }
+
+  .checkAll:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .action-selectAll input:checked ~ .checkAll:after {
+    display: block;
+  }
+
+  .action-selectAll .checkAll:after {
+    left: 8px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    background-color: transparent;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  //check checkCircle
+
+  .action-selectAll:hover input ~ .checkCircle {
+    background-color: #ccc;
+  }
+
+  .checkCircle:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .action-selectAll input:checked ~ .checkCircle:after {
+    display: block;
+  }
+
+  .action-selectAll .checkCircle:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid #2fa933;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}

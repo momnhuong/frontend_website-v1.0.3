@@ -1,0 +1,44 @@
+.status-box {
+  background-color: #0bcbff;
+  min-width: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  margin-right: 10px;
+  border-radius: 4px;
+  flex-direction: column;
+  cursor: pointer;
+  height: 40px;
+  text-transform: capitalize;
+}
+
+.status-box.open {
+  background-color: #3cdd3c;
+}
+
+.status-box.closed {
+  background-color: red;
+}
+
+.status-box.pending {
+  background-color: #8f6bff;
+}
+.status-box.solved {
+  background-color: rgb(135, 146, 157);
+}
+.status-box.hold {
+  background-color: rgb(47, 57, 65);
+}
+.status-box .status-title .status-label {
+  padding: 0;
+  margin: 0;
+}
+.status-box .status-count p {
+  padding: 0;
+  margin: 0;
+}
+
+.status-box .status-count.hide {
+  display: none;
+}

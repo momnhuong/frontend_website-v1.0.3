@@ -1,0 +1,135 @@
+.content-wrapper .knowledge-base-bg {
+  background: url(../../../../../assets/images//knowledge.jpg) no-repeat;
+  background-size: cover;
+}
+.content-wrapper .knowledge-base-bg.card {
+  margin-bottom: 2.2rem;
+  border: none;
+  border-radius: 0px;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+}
+.content-wrapper .knowledge-base-bg .card-body {
+  padding: 8rem !important;
+  text-align: left;
+  display: unset;
+}
+.content-wrapper .knowledge-base-bg .card-body .title-card-body {
+  font-size: 1.8rem;
+  color: white;
+  text-transform: uppercase;
+}
+.content-wrapper .knowledge-base-bg .card-body p {
+  color: white;
+  font-size: 1rem;
+}
+.content-wrapper .knowledge-base-bg .card-body .action-search {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+.content-wrapper .knowledge-base-bg .card-body .action-search .form-control {
+  padding-right: 5px;
+  border: 1px solid #dae1e7;
+  border-radius: 9px !important;
+  background-image: none;
+  line-height: 30px;
+  background-color: white;
+}
+.content-wrapper .knowledge-base-bg .card-body .action-search svg {
+  position: absolute;
+  top: 40%;
+  left: 1%;
+  height: 20px;
+  z-index: 5;
+  color: rgba(34, 41, 47, 0.4);
+}
+.knowledge-base-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.knowledge-base-content .search-content-info {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.knowledge-base-content .search-content-info .search-content .card {
+  position: relative;
+  padding: 0;
+}
+.knowledge-base-content .search-content-info .search-content .card .card-body .view-img {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+.knowledge-base-content .search-content-info .search-content .card:hover .card-body .view-img img {
+  /* transition: all 0.6s; */
+  transform: scale(1.2);
+}
+.knowledge-base-content .search-content-info .search-content .card .card-body {
+  padding: 0;
+}
+.knowledge-base-content .search-content-info .search-content .card .card-body .view-img img {
+  object-fit: cover;
+  width: 100%;
+  transition: all 0.6s;
+}
+.knowledge-base-content .search-content-info .search-content .card:hover .card-body .view-img .bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.knowledge-base-content .wrapper-detail-product.show .card {
+  box-shadow: none;
+}
+.search-content .card .card-body .title-section {
+  padding: 20px;
+  position: relative;
+}
+.search-content .card .card-body .title-section h4 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #0bcbff;
+}
+.search-content .card:hover .card-body .title-section h4 {
+  color: #0071bc;
+}
+
+.search-content .card .card-body .title-section p {
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 20px;
+  -webkit-line-clamp: 2;
+  height: 40px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input::placeholder {
+    padding-top: 8px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .content-wrapper .knowledge-base-bg .card-body {
+    padding: 6rem !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .content-wrapper .knowledge-base-bg .card-body {
+    padding: 2rem !important;
+  }
+}

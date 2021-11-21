@@ -1,0 +1,62 @@
+{
+  "menu.home": "Trang chủ",
+  "menu.monitoring": "Monitoring",
+  "menu.promotion": "Promotion",
+  "menu.customer":"Customer Management",
+  "menu.company":"Company",
+  "menu.account":"Account",
+  "menu.productservice":"Product & Service",
+  "menu.alert":"Alert Management",
+  "menu.order":"Order",
+  "menu.contract":"Contract",
+  "menu.billing":"Billing",
+  "menu.purchasehistory":"Purchase History",
+  "menu.package":"Package",
+  "menu.product":"Product",
+  "menu.category":"Category",
+  "menu.productmanagement":"Product Management",
+  "menu.salesmanagement":"Sales Management",
+  "validate.required": "Bắt buộc",
+
+  "features.table.Create":"Create",
+  "features.table.Action":"Action",
+  "features.order.table.id":"Order ID",
+  "features.table.CustomerName":"Customer Name",
+  "features.table.paymentStatus":"Payment",
+  "features.table.SystemName":"System Name",
+  "features.table.Message":"Message",
+  "features.table.Priority":"Priority",
+  "features.table.View":"View",
+
+
+
+
+
+
+  "features.table.Amount":"Amount",
+  "features.contract.table.id":"Contract ID",
+  "features.invoice.table.InvoiceNumber":"Invoice Number",
+
+  "features.order.table.NameProduct":"Name Product",
+  "features.order.table.PackageName":"Package Name",
+ 
+
+
+
+
+
+
+
+  "button.save": "Lưu",
+  "button.cancel": "Hủy",
+  "button.view": "Chi tiết",
+  "button.create": "Tạo mới",
+  "header.menu.accountsetting": "Account Setting",
+  "header.menu.logout": "Đăng xuất",
+  "features.login.title": "USDC Customer Portal",
+  "features.login.button": "Đăng nhập",
+  "features.login.detailLogin": "Welcome back, please login to your account.",
+  "features.login.username": "Tài khoản",
+  "features.login.password": "Mật khẩu",
+  "features.login.forgetpassword": "Quên mật khẩu"
+}

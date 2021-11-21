@@ -1,0 +1,107 @@
+.myprofile .header_myprofile {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.content_profile .content_password {
+  /* padding: 0 30px; */
+  width: 100%;
+  /* background-color: #fff; */
+  /* border-radius: 9px !important; */
+  /* box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05); */
+}
+
+.changeForm {
+  padding: 0;
+}
+.changeForm .ant-row.ant-form-item {
+  margin-bottom: 15px;
+}
+.changeForm .ant-row.ant-form-item .ant-input {
+  border-radius: 5px;
+}
+.changeForm .boxMyprofile {
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.changeForm .boxMyprofile li:last-child {
+  margin-bottom: 10px;
+}
+.changeForm li {
+  margin: 25px 0;
+  list-style-type: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+}
+.changeForm li:first-child {
+  margin-top: 0px;
+}
+.changeForm li .img-email {
+  top: 20px;
+}
+
+.box-input {
+  margin-bottom: 1rem;
+  position: relative;
+  padding-top: 1rem;
+}
+.box-input .title-input {
+  color: #666666;
+  padding-bottom: 10px;
+}
+.box-input .err-caterory {
+  position: absolute;
+  bottom: -25px;
+  left: 0px;
+  width: max-content;
+  color: red;
+}
+.box-input .card-cover {
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+}
+.changeForm .box-input .title-input {
+  line-height: 20px;
+}
+.gr_btn_submit {
+  padding-left: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+.gr_btn_submit li {
+  margin: unset;
+  margin-right: 1rem;
+  display: inline-block;
+  border: transparent;
+}
+.gr_btn_submit li:last-child {
+  margin-right: unset;
+}
+.gr_btn_submit li button {
+  border-radius: 9px !important;
+  margin-bottom: 0;
+  background-color: #0071bc;
+}
+.gr_btn_submit li:first-child button {
+  padding: 6px 25px;
+  color: white;
+}
+.gr_btn_submit li:last-child button {
+  padding: 4px 25px;
+  background-color: transparent;
+  color: #f3a356;
+  border: 2px solid #f3a356;
+}
+.form-chagepass .btn-changpass{
+  width: 25%;
+  background-color: #0071bc;
+  border-radius: 9px;
+}
+.form-chagepass .btn-changpass:hover,
+.form-chagepass .btn-changpass:focus,
+.form-chagepass .btn-changpass:active {
+  background-color: #0071bc;
+}
+.form-chagepass .btn-changpass span{
+  color: white;
+}

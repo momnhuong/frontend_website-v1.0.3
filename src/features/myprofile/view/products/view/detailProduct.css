@@ -1,0 +1,43 @@
+.wrapper-detail-product {
+  /* z-index: 2; */
+  /* visibility: hidden; */
+  transition: opacity 5s ease-in;
+  /* width: 0%; */
+  height: 100%;
+  display: flex;
+  /* opacity: 0; */
+  flex-direction: column;
+  align-items: end;
+  display: none;
+}
+.knowledge-base-content .search-content-info{
+  display: none
+}
+
+.wrapper-detail-product.show {
+  visibility: visible;
+  transition: all 0.6s ease;
+  opacity: 1;
+  display: block;
+  transition: all 0.6s ease;
+  width: 100%;
+}
+.wrapper-detail-product.show .name-products {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.wrapper-detail-product.show .name-products .name {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #0071bc;
+}
+
+.none-data {
+  display: flex;
+  justify-content: center;
+}
+.img-loading {
+  width: 150px;
+}

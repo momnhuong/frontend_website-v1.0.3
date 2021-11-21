@@ -1,0 +1,278 @@
+.ticket-box {
+  width: 98%;
+  border-radius: 4px;
+  /* height: 120px; */
+  padding: 10px 0;
+  background-color: #ffffff;
+  /* box-shadow: 0 0 4px 0 #a1859f; */
+  cursor: pointer;
+  position: relative;
+}
+
+.ticket-box .ticket-edit {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ticket-box .ticket-edit i {
+  font-size: 21px;
+}
+
+.ticket-box .ticket-edit i:hover {
+  font-size: 22px;
+  color: #0071bc;
+  transition: all 0.5s;
+}
+
+.ticket-box .ticket-checkbox {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  z-index: 1;
+}
+
+.ticket-box .ticket-checkbox i {
+  width: 15px;
+  height: 15px;
+}
+
+.ticket-box .ticket-edit .ticket-alert {
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+}
+
+.ticket-box .ticket-edit.closed .ticket-alert {
+  border-radius: 8px;
+  top: -6px;
+  position: absolute;
+  top: -30px;
+  right: 10px;
+  width: 200px;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.ticket-box .ticket-edit.closed .ticket-alert p {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.ticket-box .ticket-edit.closed:hover .ticket-alert {
+  opacity: 1;
+  visibility: visible;
+  top: -36px;
+  transition: all 0.6s;
+}
+
+.ticket-box:hover {
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+}
+
+/* .ticket-box .ticket-top::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0px;
+  background-color: red;
+} */
+
+/* .ticket-box:hover .ticket-top::before{
+  height: 10px;
+  transition: all .6s;
+} */
+
+.ticket-box-item {
+  width: 100%;
+  height: 100%;
+}
+
+.ticket-top {
+  position: relative;
+  height: 60%;
+  width: 100%;
+  display: flex;
+}
+
+.ticket-code {
+  width: 117px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-code .code {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.ticket-code .status {
+  margin-left: 15px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  background: #3cdd3c;
+  height: 26px;
+  border-radius: 4px;
+}
+
+.ticket-code .status.new {
+  background-color: #e78a39;
+}
+
+.ticket-code .status.closed {
+  background-color: red;
+}
+
+.ticket-code .status.pending {
+  background-color: #8f6bff;
+}
+.ticket-code .status.hold {
+  background-color: rgb(47, 57, 65);
+}
+.ticket-code .status.solved {
+  background-color: rgb(135, 146, 157);
+}
+
+.ticket-code .status p {
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+}
+
+.ticket-top-title {
+  margin-left: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.top-title-box {
+  width: 100%;
+}
+
+.ticket-top-title .top-title-box h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Nunito Sans", sans-serif;
+  position: relative;
+  max-height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 48vw;
+}
+
+.ticket-top-title .top-title-box .title-box-content {
+  padding: 0px;
+  margin: 0px;
+  color: #0000005c;
+  font-size: 15px;
+  font-family: "Nunito Sans", sans-serif;
+  overflow: hidden;
+  max-height: 22px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 50vw;
+}
+
+.ticket-bottom {
+  display: none;
+  background: #b9b7ba1c;
+  height: 40%;
+  /* display: flex; */
+  border-top: 1px solid #00000042;
+}
+
+.bottom-icon i {
+  font-size: 20px;
+  border-right: 1px solid #00000042;
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00000070;
+}
+
+.bottom-icon {
+  width: 117px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-info {
+  width: 100%;
+  display: flex;
+}
+
+.bottom-priority,
+.bottom-category {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20px;
+  border-right: 1px solid #00000042;
+}
+
+.bottom-priority p,
+.bottom-category p,
+.bottom-due-date p {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-family: "Nunito Sans", sans-serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 229px;
+  overflow: hidden;
+}
+
+.bottom-priority .priority-title,
+.bottom-category .category-title,
+.bottom-due-date .date-title {
+  color: #0000005e;
+  font-size: 13px;
+}
+
+.bottom-due-date {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 850px) {
+  .ticket-box {
+    height: 153px;
+  }
+  .bottom-priority p,
+  .bottom-category p,
+  .bottom-due-date p {
+    font-size: 13px;
+  }
+}

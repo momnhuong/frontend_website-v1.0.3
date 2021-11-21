@@ -1,0 +1,150 @@
+.wrapper-vpc .info-vpc {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  column-gap: 10px;
+}
+.wrapper-vpc .usdc-vdc {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.wrapper-vpc .card.usdc-vdc,
+.wrapper-vpc .card.detail-vdc,
+.card.recent-tasks {
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: white !important;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1) !important;
+}
+.support-tracker-card .apexcharts-canvas {
+  top: 0;
+}
+.support-tracker-card {
+  width: 100%;
+}
+.title-usdc {
+  display: flex;
+  align-items: center;
+}
+.row-chart {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  column-gap: 10px;
+}
+.row-chart .detail-applications {
+  min-width: 110px;
+  border-right: 1px solid rgb(77, 77, 77, 0.3);
+}
+.row-chart .detail-applications span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.chart-demo {
+  height: 200px;
+  width: 180px;
+}
+.chart-demo svg {
+  width: 100%;
+}
+.row-chart .box-chart {
+  display: flex;
+}
+.detail-vdc {
+  padding: 1.5rem;
+  padding-top: 0px;
+  padding-right: 0px;
+  flex: 1 1 auto;
+  min-height: 1px;
+  display: block;
+}
+.detail-vdc .detail {
+  padding: 5px 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid rgba(77, 77, 77, 0.3);
+}
+.detail-vdc .detail.status .detail-amt {
+  display: flex;
+  justify-content: center;
+}
+.detail-vdc .detail:first-child {
+  padding-top: 0;
+  border-top: none;
+}
+.detail-vdc .detail:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.detail-vdc .detail .detail-title {
+  width: 50%;
+}
+.title-usdc-left,
+.title-usdc-right {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+.title-usdc-left svg,
+.title-usdc-right svg {
+  margin-top: -2px;
+}
+.wrapper-vpc .recent-tasks {
+  padding-top: 1.5rem;
+  padding: 15px;
+}
+.wrapper-vpc .recent-tasks hr {
+  margin-bottom: 0.3rem;
+}
+.wrapper-vpc .recent-tasks .title-recent-task {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper-vpc .recent-tasks .title-recent-task span {
+  color: #4d4d4d;
+  font-size: 1.1rem;
+}
+.wrapper-vpc .recent-tasks .box-table {
+  padding: 5px;
+}
+.wrapper-vpc .recent-tasks .box-table .title-table {
+  display: flex;
+  padding: 8px 0;
+  justify-content: space-between;
+  border: 1px solid rgb(77, 77, 77, 0.7);
+}
+.wrapper-vpc .recent-tasks .box-table .title-table .item-title {
+  padding-right: 5px;
+  text-transform: capitalize;
+  min-width: 100px;
+  font-weight: 600;
+  color: #4d4d4d;
+  border-right: 1px solid rgb(77, 77, 77, 0.3);
+}
+.wrapper-vpc .recent-tasks .box-table .title-table .item-title:last-child {
+  border-right: none;
+}
+.wrapper-vpc .recent-tasks .box-table .title-table .item-title.task {
+  width: 20%;
+  padding-left: 5px;
+}
+.wrapper-vpc
+  .recent-tasks
+  .box-table
+  .title-table
+  .item-title.service-namespace {
+  padding-right: 5px;
+}
+.wrapper-vpc .recent-tasks .box-table .detail-table {
+  padding: 5px;
+  border: 1px solid rgb(77, 77, 77, 0.7);
+  border-top: none;
+  text-align: center;
+}
+.wrapper-vpc .recent-tasks .box-table .detail-table img {
+  height: 150px;
+}

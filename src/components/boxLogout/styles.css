@@ -1,0 +1,81 @@
+.box_logout {
+  overflow-x: hidden;
+  min-width: 400px;
+  min-height: 200px;
+  position: relative;
+  background-color: #ffffff;
+}
+.box_logout .off_box {
+  position: relative;
+}
+.box_logout .off_box img {
+  position: absolute;
+  top: 0;
+  right: 0px;
+
+  height: 20px;
+}
+.box_logout .off_box .modal-header {
+  position: relative;
+  background-color: #f8f8f8;
+  border-radius: 0.42rem;
+  padding: 0.8rem;
+  border-bottom: none;
+  justify-content: center;
+  align-items: center;
+}
+.box_logout .off_box .modal-header h6 {
+  margin-bottom: 0;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.modal-header .close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: none;
+  background-color: transparent;
+}
+.modal-header .close span {
+  font-weight: 400;
+  color: #0071bc;
+}
+.box_logout .content_box_logout {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+}
+.box_logout .btn_gr_logout {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+.box_logout .btn_gr_logout .btn_logout {
+  margin-bottom: 0px;
+  height: 50px;
+  width: 50%;
+  border-radius: 0rem;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #70a9ff, #1b47ce);
+  background: -moz-linear-gradient(right, #70a9ff, #1b47ce);
+  background: -webkit-linear-gradient(right, #70a9ff, #1b47ce);
+  background: -o-linear-gradient(right, #70a9ff, #1b47ce);
+}
+.box_logout .btn_gr_logout .btn_logout span {
+  color: white;
+}
+.box_logout .btn_gr_logout .btn_cancel_logout {
+  margin-bottom: 0px;
+  height: 50px;
+  width: 50%;
+  border-radius: 0rem;
+  background-color: #f8f8f8;
+  text-transform: uppercase;
+  font-weight: bold;
+}

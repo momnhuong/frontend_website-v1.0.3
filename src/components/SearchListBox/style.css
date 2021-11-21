@@ -1,0 +1,69 @@
+.search-list-box {
+  width: 400px;
+  /* height: 275px; */
+  background-color: #ffffff;
+  box-shadow: 0 0 2px 1px #00000030;
+  position: absolute;
+  top: 0px;
+  border-radius: 8px;
+  right: -4px;
+  z-index: 2;
+  margin-right: -500px;
+  transition: all 0.6s;
+  padding: 10px;
+}
+
+.search-list-box .search-list-content .search-input {
+  margin-bottom: 14px;
+}
+
+.search-list-box .search-list-content .search-input {
+  height: 37px;
+  border-radius: 4px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+}
+
+.search-list-box .search-list-content .search-input .search-box input {
+  border: 1px solid #0000008a;
+  height: 38px;
+}
+
+.search-list-box .search-list-content .search-input .search-box i {
+  top: 9px;
+  color: #0071bc;
+}
+
+.search-list-box .search-list-content .search-select {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.search-list-box .search-list-content .search-select .input-select-box input {
+  padding-left: 10px;
+}
+
+.search-list-box .search-list-content .search-select .search-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+  background: #0071bc;
+  border-radius: 4px;
+  height: 35px;
+}
+
+.search-list-box .search-list-content .search-select .search-submit p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .search-input input::placeholder {
+    padding-top: 2px;
+  }
+}

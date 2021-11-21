@@ -1,0 +1,38 @@
+.title-create-customer {
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: #4d4d4d;
+  font-weight: bold;
+}
+.create-customer .ant-row.ant-form-item .ant-form-item-control-input-content {
+  display: flex;
+  justify-content: flex-end;
+}
+.create-customer .btn-login {
+  border-radius: 9px;
+  background-color: #0071bc !important;
+  width: 15%;
+}
+.create-customer .btn-login span {
+  color: white;
+}
+.create-customer .row-header {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.form-add-customer .btn-add{
+  width: 20%;
+  background-color: #0071bc;
+  border-radius: 9px;
+}
+.form-add-customer .btn-add span{
+  color: white;
+}
+.form-add-customer .btn-add:hover,
+.form-add-customer .btn-add:focus,
+.form-add-customer .btn-add:active {
+  background-color: #0071bc;
+}

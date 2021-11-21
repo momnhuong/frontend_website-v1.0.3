@@ -1,0 +1,24 @@
+.containerModal {
+  height: 100vh !important;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.containerModal .bodyModal {
+  margin: auto !important;
+  height: fit-content !important;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 9px !important;
+}
+.containerModal .label {
+  border-bottom-style: solid;
+  border-color: #c7c7c7;
+  padding-bottom: 10px;
+}
+.containerModal .modal-button-cancel {
+  margin-right: 20px;
+}

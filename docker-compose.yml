@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  admin:
+    build:
+      context: ./
+      args:
+        - REACT_APP_CORE_SERVICE_BASE_URL=${REACT_APP_CORE_SERVICE_BASE_URL}
+        - REACT_APP_ENVIRONMENT=${REACT_APP_ENVIRONMENT}
+    image: domain-dev/usdc/usdc-website-${CI_ENVIRONMENT_SLUG}:${CI_PIPELINE_ID}
+    container_name: usdc_website
+    
+    ports:
+      - '${HOST_PORT}:5000'
+
+networks:
+  default:
+    external:
+      name: nginx-proxy

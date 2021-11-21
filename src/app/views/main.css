@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=vietnamese");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 13px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.ant-popover-inner-content {
+  padding: 0 !important;
+}
+.bmd-form-group.is-filled,
+.bmd-form-group {
+  width: 100%;
+}
+/* .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 28px 16px 0;
+  float: left;
+} */
+.ant-select-arrow .anticon {
+  padding-top: 5px !important;
+}
+
+.ant-notification-notice-with-icon {
+  display: flex !important;
+  align-items: center !important;
+}
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item a span {
+  margin-right: 7px;
+}
+.ant-modal-body{
+  padding: 0 !important;
+}
+.ant-dropdown-menu:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0.6rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  display: block;
+  background: #fff;
+  transform: rotate(45deg) translate(-7px);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 0;
+  box-sizing: border-box;
+}

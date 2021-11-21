@@ -1,0 +1,139 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.top .actions.action-btns .dropdown button {
+  padding: 7.5px 16px !important;
+  border-radius: 9px !important;
+  /* border-color: #0bcbff !important;
+  background-color: #0071bc !important; */
+  /* border-color: #0bcbff !important; */
+  background-color: #0bcbff !important;
+}
+.top .actions.action-btns .dropdown button span,
+.top .actions.action-btns .dropdown button svg {
+  color: white;
+  vertical-align: sub;
+}
+.top .actions.action-btns .dropdown button svg {
+  margin-right: 0px !important;
+}
+.top .actions.action-btns .dropdown button span {
+  margin-right: 0.5rem;
+}
+.top .actions.action-btns .dropdown .dropdown-menu.dropdown-menu-right.show {
+  top: 15px !important;
+  border-radius: 8px;
+  transform: translate3d(0px, 29px, 0px) !important;
+}
+.top
+  .actions.action-btns
+  .dropdown
+  .dropdown-menu.dropdown-menu-right.show
+  .dropdown-item {
+  color: #626262;
+}
+.top
+  .actions.action-btns
+  .dropdown
+  .dropdown-menu.dropdown-menu-right.show
+  .dropdown-item:hover {
+  cursor: pointer;
+}
+.top
+  .actions.action-btns
+  .dropdown
+  .dropdown-menu.dropdown-menu-right.show:before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  right: 3.2rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  display: block;
+  background: #ffffff;
+  -webkit-transform: rotate(45deg) translate(-7px);
+  -ms-transform: rotate(45deg) translate(-7px);
+  transform: rotate(45deg) translate(-7px);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  box-sizing: border-box;
+}
+.top .action-search {
+  position: relative;
+}
+.top .action-search img {
+  position: absolute;
+  top: 29%;
+  left: 7%;
+  height: 20px;
+}
+.top .action-search .form-control {
+  padding-right: 5px;
+  border: 1px solid #dae1e7;
+  border-radius: 9px !important;
+  background-image: none;
+  line-height: 30px;
+}
+.list-customer .title-table {
+  font-weight: bold;
+}
+.list-customer.list-order-customer .itemlist .col-item a svg {
+  position: unset;
+  vertical-align: bottom;
+}
+.no-data {
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no-data svg {
+  width: 500px;
+}
+.actions.action-btns.list-customer {
+  position: relative;
+  min-width: 400px;
+}
+.actions.action-btns.list-customer form {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.actions.action-btns.list-customer form button {
+  margin-left: 5px;
+  padding: 6px 40px;
+  height: 40px;
+  text-transform: uppercase;
+  background-color: #0071bc;
+  border-radius: 9px;
+}
+.actions.action-btns.list-customer form button:hover {
+  cursor: pointer;
+}
+
+.actions.action-btns.list-customer .box-input .form-group {
+  margin-bottom: 0;
+  width: 250px;
+}
+.actions.action-btns.list-customer .box-input .form-group .invalid-feedback {
+  display: block;
+  position: absolute;
+}
+.actions.action-btns.list-customer .box-input .card-cover {
+  border: 1px solid transparent;
+}
+.btn-add-product {
+  border-radius: 9px;
+  background-color: #0071bc;
+}
+.btn-add-product span {
+  color: white;
+}
+.btn-add-product:hover,
+.btn-add-product:focus,
+.btn-add-product:active {
+  background-color: #0071bc;
+}

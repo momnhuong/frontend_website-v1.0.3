@@ -1,0 +1,4 @@
+export const LIST_CHAT = "LIST_CHAT";
+export const DETAIL_CHAT = "DETAIL_CHAT";
+export const DETAIL_CHAT_SUCCESS = "DETAIL_CHAT_SUCCESS";
+export const DETAIL_CHAT_FAILED = "DETAIL_CHAT_FAILED";

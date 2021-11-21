@@ -1,0 +1,137 @@
+.detail-account-customer .card-header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.detail-account-customer .card-header a svg {
+  margin-top: 5px;
+}
+
+.detail-account-customer tr {
+  height: 58px;
+}
+.detail-account-customer tr .input .field {
+  border: 1px solid transparent;
+  padding-left: 0px !important;
+  color: #626262;
+  background-color: white;
+}
+.detail-account-customer .card-header svg {
+  position: unset;
+}
+.detail-account-customer .card-header .card-title {
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  font-size: 1.32rem;
+  margin-bottom: 0;
+}
+.detail-account-customer .card-body .page-users-view .users-view-image {
+  width: 250px;
+}
+.detail-account-customer table {
+  width: 100%;
+}
+.detail-account-customer table td {
+  padding-bottom: 0.8rem;
+  min-width: 150px;
+  color: #626262;
+  font-size: 1.1rem;
+  word-break: break-word;
+}
+.detail-account-customer .card-header {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+.detail-account-customer .card-body {
+  padding: 0;
+}
+.font-weight-bold {
+  font-weight: 700;
+  color: #626262;
+}
+.gr-btn {
+  padding-top: 20px;
+}
+.btn-edit {
+  margin-right: 20px;
+  position: relative;
+  padding: 10px 25px;
+  border-radius: 9px !important;
+  border-color: transparent;
+  margin-bottom: 0;
+  background-color: #0071bc;
+  color: white;
+}
+.btn-edit svg {
+  position: absolute;
+  top: 13px;
+}
+.btn-del svg {
+  position: absolute;
+  top: 14px;
+}
+.btn-edit span,
+.btn-del span {
+  padding-left: 30px;
+}
+.btn-edit span {
+  color: white;
+}
+.btn-del {
+  position: relative;
+  padding: 6px 25px;
+  border-radius: 9px !important;
+  border-color: currentColor;
+  color: #f44336;
+  background-color: transparent;
+  border: 1px solid #f44336;
+}
+.gr-btn .btn-del svg {
+  top: 17px;
+}
+.detail-account-customer .listAccountOfCustomer .header-listAccountOfCustomer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.detail-account-customer .listAccountOfCustomer p {
+  margin-bottom: 0;
+  margin-right: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #626262;
+}
+.detail-account-customer .listAccountOfCustomer .ant-tabs .btn-add {
+  padding: 12px 8px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  border-color: #0bcbff !important;
+  background-color: #0bcbff !important;
+  color: #ffffff;
+  border-radius: 9px !important;
+}
+.detail-account-customer .listAccountOfCustomer .ant-tabs .btn-add span {
+  color: white;
+}
+
+.form-edit-customer .ant-form-item-control-input-content {
+  display: flex;
+  /* justify-content: flex-end; */
+}
+.form-edit-customer button.btn-login-cus {
+  /* width: 25%; */
+  background-color: #0071bc;
+  border-radius: 9px;
+}
+.form-edit-customer button span {
+  color: white;
+}
+.form-edit-customer button.btn-login-cus:hover,
+.form-edit-customer button.btn-login-cus:active,
+.form-edit-customer button.btn-login-cus:focus {
+  background-color: #0071bc;
+}

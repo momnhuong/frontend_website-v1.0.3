@@ -1,0 +1,108 @@
+/* New CSS */
+.account-setting{
+  margin-top: 64px;
+}
+.wapper-account-setting {
+  overflow-x: hidden;
+}
+.wapper-account-setting .menu-account-setting {
+  padding-left: 0;
+  padding: 1rem;
+}
+.wapper-account-setting .menu-main {
+  /* padding-top: 1rem; */
+  border-radius: 0;
+  height: 100%;
+  width: 20.8%;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  height: 100%;
+  left: 0;
+  overflow-y: auto;
+  position: fixed;
+  text-align: right;
+  top: 0;
+}
+.wapper-account-setting .menu-main .title-menu {
+  padding-left: 24px;
+  list-style-type: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+
+.wapper-account-setting .menu-account-setting li {
+  list-style-type: none;
+}
+.wapper-account-setting .menu-account-setting li a {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  color: #4d4d4d;
+  /* display: block; */
+}
+.wapper-account-setting .menu-account-setting li a svg {
+  margin-right: 8px;
+  margin-top: -3px;
+}
+.wapper-account-setting .menu-account-setting li a.active {
+  padding: 6px 12px;
+  background-color: #716be8;
+  background-color: #0071bc;
+  border-radius: 8px;
+  color: white;
+}
+.wapper-account-setting .container-main {
+  position: relative;
+  padding: 1.5rem;
+  padding-right: 20px !important;
+  background-color: #f8f8f8;
+}
+.bmd-form-group.is-filled {
+  width: 100%;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .top .action-search .form-control::placeholder {
+    padding-top: 8px;
+  }
+  .action-search input::placeholder {
+    padding-top: 2px !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .content-account-setting .menu-account-setting,
+  .content-account-setting .content-right {
+    margin-right: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .content-account-setting .menu-account-setting {
+    margin-top: 0;
+  }
+  .menu-account-setting .nav-item a .d-none {
+    display: unset !important;
+  }
+  .content-account-setting .content-right.wrapper-setting .tab-content {
+    width: 100%;
+  }
+  .content-account-setting {
+    padding-top: 1rem;
+  }
+}
+
+.wapper-account-setting .ant-menu {
+  border-right: none !important;
+  margin-top: 74px;
+}
+.wapper-account-setting .ant-menu.menu-setting-my-profile{
+  margin-top: 74px;
+}
+.wapper-account-setting .ant-menu.menu-setting-my-profile .ant-menu-sub.ant-menu-inline{
+  margin-top: 0px;
+}

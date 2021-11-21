@@ -1,0 +1,32 @@
+.alert-message-box {
+  width: 360px;
+  /* min-height: 200px; */
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 0 3px 0px #0000007d;
+}
+
+.alert-notification {
+  width: auto;
+  min-height: 80px;
+  background-color: #0071bc;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.alert-notification p,
+.alert-notification h4 {
+  font-family: "Nunito Sans", sans-serif;
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+}
+
+.alert-notification p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 16px;
+}

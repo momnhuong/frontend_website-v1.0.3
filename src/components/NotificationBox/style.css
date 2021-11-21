@@ -1,0 +1,147 @@
+.notification-link {
+  text-decoration: none;
+}
+.notification-box {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid #00000021;
+  padding-bottom: 12px;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.notification-box.success i {
+  color: #00cfe8;
+}
+
+.notification-box.success .no-box-content .box-title {
+  color: #00cfe8;
+}
+
+.notification-box.error i {
+  color: #d71a1c;
+}
+
+.notification-box.error .no-box-content .box-title {
+  color: #d71a1c;
+}
+
+.notification-box.warning i {
+  color: #ff9f43;
+}
+
+.notification-box.warning .no-box-content .box-title {
+  color: #ff9f43;
+}
+
+.notification-box:hover {
+  background-color: #00000014;
+  transition: all 0.6s;
+}
+.notification-box:last-child {
+  border: none;
+}
+.notification-box p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 13px;
+}
+.notification-box .no-box-icon {
+  height: 100%;
+  color: #0071bc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 47px;
+}
+
+.notification-box .no-box-icon i {
+  font-size: 20px;
+}
+
+.notification-box .no-box-content {
+  display: flex;
+  justify-content: start;
+  /* align-items: center; */
+  flex-direction: column;
+  max-height: 250px;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.notification-box .no-box-content p:nth-child(1) {
+  font-size: 15px;
+  color: #0071bc;
+}
+
+.notification-box .no-box-content p {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 229px;
+  color: #212529;
+}
+
+.notification-box .no-box-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+}
+.notification-box .no-box-time p {
+  padding: 0px;
+  right: 0px;
+  color: #212529;
+}
+.list-message {
+  /* max-height: 350px; */
+  /* overflow: scroll; */
+}
+
+.alert-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  border-top: 1px solid #0000002b;
+  height: 43px;
+  position: relative;
+  overflow: hidden;
+}
+
+.alert-all::before {
+  content: "";
+  background-color: #0071bc;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 0%;
+  z-index: 1;
+  border-top-right-radius: 160px;
+  border-top-left-radius: 160px;
+}
+
+.alert-all:hover.alert-all::before {
+  height: 800%;
+  transition: all 0.6s;
+}
+
+.alert-all:hover p {
+  color: #ffffff;
+  transition: all 0.6s;
+}
+.alert-all p {
+  padding: 0px;
+  margin: 0px;
+  color: #00000078;
+  z-index: 2;
+}
+a:link,
+a:visited,
+a {
+  text-decoration: none;
+}

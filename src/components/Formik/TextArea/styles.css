@@ -1,0 +1,17 @@
+.input {
+  position: relative;
+}
+.input .errorInput {
+  position: absolute;
+  top: 46px;
+  left: 0px;
+  width: max-content;
+  color: red;
+  bottom: 10px;
+  font-size: 0.875rem;
+}
+
+.classLabel {
+  text-align: left;
+  margin-bottom: 20px;
+}

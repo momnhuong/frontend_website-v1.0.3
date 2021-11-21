@@ -1,0 +1,78 @@
+.profile-owner {
+  margin-top: -80vh;
+  padding: 0 20px 0 20px;
+  height: 100%;
+  transition: all 0.6s;
+}
+
+.profile-owner .close-box {
+  position: absolute;
+  right: 0px;
+  height: 40px;
+  cursor: pointer;
+  width: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0071bc;
+}
+
+.profile-owner .profile-owner-box .owner-avatar {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  align-items: center;
+  padding: 50px 0 0 0;
+}
+
+.profile-owner .profile-owner-box .owner-avatar .avatar-box .user-avatar {
+  height: 80px;
+  width: 80px;
+}
+
+.profile-owner .profile-owner-box .owner-avatar .avatar-box::before {
+  width: 20px;
+  height: 20px;
+  border-radius: 9px !important;
+}
+
+.profile-owner .profile-owner-box .owner-avatar .avatar-box .user-avatar img {
+  border-radius: 40px;
+}
+
+.profile-owner .profile-owner-box .owner-avatar .owner-name {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #2c2c2c;
+}
+
+.profile-owner .profile-owner-box .owner-about p {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+}
+
+.profile-owner .profile-owner-box .owner-about textarea {
+  width: 100%;
+  height: 140px;
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+  color: rgb(78, 81, 84);
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  outline: none;
+  border-radius: 8px;
+}
+
+.profile-owner .profile-owner-box .owner-about textarea::placeholder {
+  font-size: 15px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #c4bfbf;
+}
+
+.profile-owner .profile-owner-box .owner-about textarea:focus {
+  border-color: #0071bc;
+}

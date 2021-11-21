@@ -1,0 +1,21 @@
+.static-management .title-static-management {
+  margin-bottom: 20px;
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: #4d4d4d;
+  font-weight: bold;
+}
+.form-static-management button {
+  border-radius: 9px;
+  background-color: #0071bc !important;
+  width: 15%;
+}
+.form-static-management .ant-form-item-control-input-content {
+  display: flex;
+  justify-content: flex-end;
+}
+.form-static-management button span {
+  color: white;
+  text-transform: uppercase;
+}
